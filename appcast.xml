@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+    <channel>
+        <title>Runyard</title>
+        <link>https://bonevil-ca.github.io/runyard-releases/appcast.xml</link>
+        <description>Most recent updates to Runyard</description>
+        <language>en</language>
+    </channel>
+</rss><!-- sparkle-signatures:
+edSignature: DqqsTcO8U8DXDAG78TDIUgel5WYxE4DPWBhfS2yNzI7qE32E6ukuzwCv/vSRyGZNkZTNHr+xmF5VV6E4FU+DCw==
+length: 666
+-->
