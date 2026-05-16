@@ -43,6 +43,7 @@ It's not Electron, not a wrapper, not a webview — just native Swift and AppKit
 - **Health monitoring** — HTTP and TCP health checks with a real-time state machine (running, starting, stopped, failing, paused).
 - **Auto port detection** — Runyard reads each process's listening port from the OS and shows it next to the tool name; URLs and health checks support `{{port}}` placeholders so your config works regardless of which port the dev server picks.
 - **Probes** — standalone HTTP/TCP watchers that surface failures in the menu without managing a process.
+- **Keep Awake** — built-in `caffeinate` integration. Toggle a timed or indefinite session manually from the popover, or set `keepSystemAwake` on any service or probe so macOS only stays awake while it's actually running. Optionally keep the display awake too.
 - **Custom actions** — open URLs, run shell commands, execute AppleScripts, or reveal files. Scope each action to `running`, `stopped`, or `always` visibility.
 - **Shortcuts and groups** — flat quick-action lists or nested submenus to organize your stack the way you think about it.
 
