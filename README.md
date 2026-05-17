@@ -34,7 +34,7 @@ Runyard runs in your menu bar (no dock icon) and manages the processes that make
 It's not Electron, not a wrapper, not a webview — just native Swift and AppKit, designed to stay out of your way until you need it.
 
 <div align="center">
-<a href="https://bonevil.ca/runyard"><img src="https://bonevil.ca/assets/screenshots/en/screenshot-1-full.jpg" alt="Runyard menu bar — start, stop, and monitor your dev stack" width="560" /></a>
+<a href="https://bonevil.ca/runyard"><img src="https://bonevil.ca/assets/screenshots/en/screenshot-1.webp" alt="Runyard menu bar — start, stop, and monitor your dev stack" width="560" /></a>
 </div>
 
 ## Key Features
@@ -47,12 +47,12 @@ It's not Electron, not a wrapper, not a webview — just native Swift and AppKit
 - **Custom actions** — open URLs, run shell commands, execute AppleScripts, or reveal files. Scope each action to `running`, `stopped`, or `always` visibility.
 - **Shortcuts and groups** — flat quick-action lists or nested submenus to organize your stack the way you think about it.
 
-  <div align="center"><a href="https://runyard.app"><img src="https://bonevil.ca/assets/screenshots/en/screenshot-2-full.jpg" alt="Runyard settings — group links, actions, and services" width="560" /></a></div>
+  <div align="center"><a href="https://runyard.app"><img src="https://bonevil.ca/assets/screenshots/en/screenshot-2.webp" alt="Runyard settings — group links, actions, and services" width="560" /></a></div>
 
 - **Install hooks** — auto-run `npm install` (or any command) when dependencies are missing.
 - **Custom shutdown** — define `stopCommands` for tools that need a graceful stop (e.g. `docker-compose down`) instead of SIGTERM.
 
-  <div align="center"><a href="https://runyard.app"><img src="https://bonevil.ca/assets/screenshots/en/screenshot-3-full.jpg" alt="Runyard advanced settings — health checks, timeouts, and graceful shutdowns" width="560" /></a></div>
+  <div align="center"><a href="https://runyard.app"><img src="https://bonevil.ca/assets/screenshots/en/screenshot-3.webp" alt="Runyard advanced settings — health checks, timeouts, and graceful shutdowns" width="560" /></a></div>
 
 - **Per-process logs** — every process writes to `~/Library/Logs/Runyard/`, openable straight from the menu.
 - **Sync across Macs** — point your config at iCloud Drive or Dropbox to share the same stack across machines.
@@ -61,7 +61,7 @@ It's not Electron, not a wrapper, not a webview — just native Swift and AppKit
 
 <div align="center">
 
-<a href="https://runyard.app"><img src="https://bonevil.ca/assets/screenshots/en/screenshot-4-full.jpg" alt="Runyard JSON configuration — config as code" width="560" /></a>
+<a href="https://runyard.app"><img src="https://bonevil.ca/assets/screenshots/en/screenshot-4.webp" alt="Runyard JSON configuration — config as code" width="560" /></a>
 
 <sub><strong>Config as code. No magic.</strong> One JSON file to rule your entire stack.</sub>
 
