@@ -34,7 +34,7 @@ Runyard runs in your menu bar (no dock icon) and manages the processes that make
 It's not Electron, not a wrapper, not a webview — just native Swift and AppKit, designed to stay out of your way until you need it.
 
 <div align="center">
-<a href="https://bonevil.ca/runyard"><img src="https://bonevil.ca/assets/screenshots/en/screenshot-1.webp" alt="Runyard menu bar — start, stop, and monitor your dev stack" width="560" /></a>
+<a href="https://bonevil.ca/runyard"><img src="https://bonevil.ca/assets/screenshots/en/screenshot-1.webp" alt="Runyard menu bar — start, stop, and monitor your dev stack" width="320" /></a>
 </div>
 
 ## Key Features
