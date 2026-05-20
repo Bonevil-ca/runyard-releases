@@ -199,10 +199,10 @@
     var product = params.get("product");
     var pill = document.getElementById("product-pill");
     var labels = {
-      coffee: { en: "Coffee tip",  fr: "Pourboire café"   },
-      lunch:  { en: "Lunch tip",   fr: "Pourboire midi"   },
-      dinner: { en: "Dinner tip",  fr: "Pourboire soir"   },
-      custom: { en: "Custom tip",  fr: "Pourboire libre"  }
+      coffee: { en: "Coffee tip",  fr: "Pourboire café"     },
+      lunch:  { en: "Lunch tip",   fr: "Pourboire déjeuner" },
+      dinner: { en: "Dinner tip",  fr: "Pourboire dîner"    },
+      custom: { en: "Your choice", fr: "À votre choix"      }
     };
     if (product && labels[product]) {
       pill.textContent = labels[product][isFR ? "fr" : "en"];
