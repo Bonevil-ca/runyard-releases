@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
+<title>Unlimited Tools activated — Runyard</title>
+<link rel="icon" type="image/png" sizes="32x32" href="https://bonevil.ca/assets/bonevil-favicon-32.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0a0e1a;
+    --bg-2: #0f1629;
+    --card: #151d35;
+    --text: #e5e7eb;
+    --muted: #9ca3af;
+    --accent: #06b6d4;
+    --accent-light: #22d3ee;
+    --accent-glow: rgba(6, 182, 212, 0.18);
+    --purple: #a855f7;
+  }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; }
+  body {
+    margin: 0;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    color: var(--text);
+    background:
+      radial-gradient(ellipse at 20% 0%, rgba(6,182,212,0.14), transparent 55%),
+      radial-gradient(ellipse at 85% 100%, rgba(168,85,247,0.16), transparent 55%),
+      var(--bg);
+    min-height: 100%;
+    display: grid;
+    place-items: center;
+    padding: 24px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .card {
+    width: 100%;
+    max-width: 460px;
+    background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.01)) var(--card);
+    border: 1px solid rgba(255,255,255,0.06);
+    border-radius: 20px;
+    padding: 40px 32px 32px;
+    text-align: center;
+    box-shadow:
+      0 1px 0 rgba(255,255,255,0.04) inset,
+      0 20px 60px rgba(0,0,0,0.45),
+      0 0 80px var(--accent-glow);
+  }
+  .icon-wrap {
+    width: 84px;
+    height: 84px;
+    margin: 0 auto 22px;
+    border-radius: 22px;
+    background: #000;
+    display: grid;
+    place-items: center;
+    box-shadow:
+      0 0 0 1px rgba(255,255,255,0.06),
+      0 0 60px rgba(6,182,212,0.35);
+    overflow: hidden;
+  }
+  .icon-wrap img { width: 100%; height: 100%; display: block; }
+  h1 {
+    margin: 0 0 8px;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+  }
+  .pill {
+    display: inline-block;
+    margin: 0 0 18px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent-light);
+    background: rgba(6,182,212,0.10);
+    border: 1px solid rgba(6,182,212,0.25);
+    padding: 5px 10px;
+    border-radius: 999px;
+  }
+  p {
+    margin: 0 0 22px;
+    color: var(--muted);
+    font-size: 15px;
+    line-height: 1.55;
+  }
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+    padding: 14px 20px;
+    border-radius: 12px;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #052028;
+    background: linear-gradient(180deg, var(--accent-light), var(--accent));
+    box-shadow: 0 8px 24px rgba(6,182,212,0.35), inset 0 1px 0 rgba(255,255,255,0.35);
+    transition: transform 120ms ease, box-shadow 120ms ease, filter 120ms ease;
+  }
+  .btn:hover { filter: brightness(1.05); transform: translateY(-1px); }
+  .btn:active { transform: translateY(0); }
+  .status {
+    margin-top: 18px;
+    font-size: 13px;
+    color: var(--muted);
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    min-height: 18px;
+  }
+  .spinner {
+    width: 14px; height: 14px;
+    border-radius: 50%;
+    border: 2px solid rgba(34,211,238,0.25);
+    border-top-color: var(--accent-light);
+    animation: spin 0.8s linear infinite;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .lang-fr { display: none; }
+  html[lang="fr"] .lang-en { display: none; }
+  html[lang="fr"] .lang-fr { display: initial; }
+  .foot {
+    margin-top: 26px;
+    font-size: 12px;
+    color: #6b7280;
+  }
+  .foot a { color: var(--muted); text-decoration: none; border-bottom: 1px dotted rgba(255,255,255,0.18); }
+</style>
+</head>
+<body>
+  <main class="card" role="main">
+    <div class="icon-wrap" aria-hidden="true">
+      <img src="https://bonevil.ca/assets/runyard-icon.png" alt="">
+    </div>
+
+    <span class="pill">
+      <span class="lang-en">Unlimited Tools</span>
+      <span class="lang-fr">Outils illimités</span>
+    </span>
+
+    <h1>
+      <span class="lang-en">You're all set</span>
+      <span class="lang-fr">Tout est prêt</span>
+    </h1>
+    <p>
+      <span class="lang-en">Your license is on its way to your inbox. Reopen Runyard to activate this Mac and lift the free-tier cap.</span>
+      <span class="lang-fr">Votre licence est en route vers votre boîte courriel. Rouvrez Runyard pour activer ce Mac et lever les limites du forfait gratuit.</span>
+    </p>
+
+    <a id="open-app" class="btn" href="#">
+      <span class="lang-en">Open Runyard</span>
+      <span class="lang-fr">Ouvrir Runyard</span>
+    </a>
+
+    <div class="status" aria-live="polite">
+      <span class="spinner" id="spinner"></span>
+      <span id="status-text">
+        <span class="lang-en">Opening Runyard…</span>
+        <span class="lang-fr">Ouverture de Runyard…</span>
+      </span>
+    </div>
+
+    <div class="foot">
+      <a href="https://bonevil.ca/runyard"><span class="lang-en">Back to runyard.app</span><span class="lang-fr">Retour à runyard.app</span></a>
+    </div>
+  </main>
+
+<script>
+  (function () {
+    // Pick locale from the buyer's browser. Dodo's static payment links
+    // do not forward a locale/language/country parameter in the return
+    // URL, so the only signal available is the browser preference list
+    // (which is the same signal Dodo's own checkout auto-detects from).
+    // Walk `navigator.languages` so a user whose primary preference is
+    // unsupported but who lists FR second still gets French copy.
+    var prefs = navigator.languages && navigator.languages.length
+      ? navigator.languages
+      : [navigator.language || "en"];
+    var isFR = prefs.some(function (l) { return l && l.toLowerCase().indexOf("fr") === 0; });
+    if (isFR) {
+      document.documentElement.setAttribute("lang", "fr");
+      document.title = "Outils illimités activés — Runyard";
+    }
+
+    // Pass every query param Dodo provided (status, payment_id, license_key,
+    // email, …) straight through to the runyard:// deep link. The Swift
+    // handler reads what it needs and ignores the rest.
+    var params = new URLSearchParams(window.location.search);
+    var deepLink = "runyard://activate?" + params.toString();
+
+    var openLink = document.getElementById("open-app");
+    openLink.setAttribute("href", deepLink);
+
+    setTimeout(function () {
+      window.location.href = deepLink;
+    }, 250);
+
+    setTimeout(function () {
+      var spin = document.getElementById("spinner");
+      var text = document.getElementById("status-text");
+      if (spin) spin.style.display = "none";
+      if (text) {
+        text.innerHTML =
+          '<span class="lang-en">If Runyard did not open, click the button above.</span>' +
+          '<span class="lang-fr">Si Runyard ne s’est pas ouvert, cliquez sur le bouton ci-dessus.</span>';
+      }
+    }, 3500);
+  })();
+</script>
+</body>
+</html>
