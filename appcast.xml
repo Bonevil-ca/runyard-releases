@@ -6,8 +6,51 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <link>https://bonevil-ca.github.io/runyard-releases/appcast.xml</link>
         <description>Most recent updates to Runyard</description>
         <language>en</language>
+        <item>
+            <title>Version 2026.05.0</title>
+            <pubDate>Sun, 24 May 2026 13:22:26 -0400</pubDate>
+            <sparkle:version>182</sparkle:version>
+            <sparkle:shortVersionString>2026.05.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description xml:lang="en"><![CDATA[
+<h3>First public release</h3>
+<p>Runyard is a macOS menu bar app that orchestrates your local development environment. Start, stop, and monitor all your services (backends, frontends, databases, proxies) from a single dropdown. No more juggling terminal tabs.</p>
+<h3>Highlights</h3>
+<ul>
+    <li><strong>One-click orchestration</strong>: Start your entire stack with a single click. Sequential startup with dependency management ensures services launch in the right order.</li>
+    <li><strong>Health monitoring</strong>: HTTP and TCP health checks with real-time status tracking. Standalone health checks get a 20-bar latency sparkline showing recent polls at a glance.</li>
+    <li><strong>Card-dashboard popover</strong>: Every tool is a card with a status pill, action chips, and a footer button-bar. Cards collapse individually, and a single Collapse all / Expand all button toggles them in bulk.</li>
+    <li><strong>Flexible configuration</strong>: Define services, shortcuts, groups, and health checks in a simple JSON config. Organize tools in hierarchical menus that match how you think about your stack.</li>
+    <li><strong>Custom actions</strong>: Run shell commands, open URLs, execute AppleScripts, or reveal files. All from contextual menu actions attached to each tool.</li>
+    <li><strong>Keep the Mac awake</strong>: Services can hold sleep off while they run (<code>keepSystemAwake: true</code>), useful for long builds, dev servers, or background workers. A manual toggle in the popover does the same on demand, with an optional auto-off timer.</li>
+    <li><strong>Native and lightweight</strong>: Pure Swift with AppKit and SwiftUI. No Electron, no web views. Lives in your menu bar with zero dock clutter and minimal resource usage.</li>
+    <li><strong>Free tier or Unlimited Tools</strong>: Start free for small setups. A one-time <strong>Unlimited Tools</strong> purchase lifts every cap. Yours forever, no subscription.</li>
+</ul>
+]]></description>
+            <description xml:lang="fr"><![CDATA[
+<h3>Première version publique</h3>
+<p>Runyard est une app macOS dans la barre de menus qui orchestre votre environnement de développement local. Démarrez, arrêtez et surveillez tous vos services (backends, frontends, bases de données, proxys) depuis un seul menu déroulant. Fini le jonglage entre les onglets du terminal.</p>
+<h3>Points saillants</h3>
+<ul>
+    <li><strong>Orchestration en un clic</strong> : Démarrez tout votre stack en un seul clic. Le démarrage séquentiel avec gestion des dépendances assure que les services se lancent dans le bon ordre.</li>
+    <li><strong>Suivi de l'état</strong> : Vérifications d'état HTTP et TCP avec suivi en temps réel. Les vérifications d'état autonomes affichent un sparkline 20 barres des latences récentes pour visualiser leur santé d'un coup d'œil.</li>
+    <li><strong>Popover tableau de bord</strong> : Chaque outil est une carte avec une pastille d'état, des chips d'action et une barre de boutons en pied. Les cartes se réduisent individuellement, et un seul bouton Tout réduire / Tout déplier les bascule en lot.</li>
+    <li><strong>Configuration flexible</strong> : Définissez vos services, raccourcis, groupes et vérifications d'état dans un simple fichier JSON. Organisez vos outils dans des menus hiérarchiques qui correspondent à votre façon d'organiser votre stack.</li>
+    <li><strong>Actions personnalisées</strong> : Exécutez des commandes shell, ouvrez des URL, exécutez des AppleScripts ou révélez des fichiers. Le tout depuis des actions contextuelles attachées à chaque outil.</li>
+    <li><strong>Empêcher la veille du Mac</strong> : Les services peuvent garder le Mac actif pendant qu'ils s'exécutent (<code>keepSystemAwake: true</code>), pratique pour les longs builds, serveurs de développement ou tâches en arrière-plan. Une bascule manuelle dans le popover fait la même chose à la demande, avec une minuterie d'arrêt automatique optionnelle.</li>
+    <li><strong>Natif et léger</strong> : Pur Swift avec AppKit et SwiftUI. Pas d'Electron, pas de vues web. Vit dans votre barre de menus sans encombrer le Dock et avec une utilisation minimale des ressources.</li>
+    <li><strong>Niveau gratuit ou Outils illimités</strong> : Commencez gratuitement pour les petites configurations. Un achat unique <strong>Outils illimités</strong> lève toutes les limites. À vous pour toujours, sans abonnement.</li>
+</ul>
+]]></description>
+            <enclosure
+                url="https://github.com/bonevil-ca/runyard-releases/releases/download/2026.05.0/Runyard.dmg"
+                sparkle:edSignature="/6V/PpnDMh3ihpWjGkgiELW71fTGQaZdXDvV9vHMyHpnMBwAXLhDBz4qNfcNl71gkws6Yaw9a4MOt5mXa/3nCw=="
+                length="7668967"
+                type="application/octet-stream" />
+        </item>
+
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: DqqsTcO8U8DXDAG78TDIUgel5WYxE4DPWBhfS2yNzI7qE32E6ukuzwCv/vSRyGZNkZTNHr+xmF5VV6E4FU+DCw==
-length: 666
+edSignature: X6MwsA6FIvUtdw9XXwPH4buvQ5IMGk91N1tNEku5HNjGwY2+HI8qrTp7nfPd4LhccgKFsXvha1z3qJiU/qaZAg==
+length: 5884
 -->
