@@ -9,7 +9,7 @@
 <p>A macOS menu bar app that orchestrates your local development environment. Start, stop, and monitor all your services — backends, frontends, databases, proxies — from a single dropdown. No more juggling terminal tabs.</p>
 
 <p>
-  <a href="https://github.com/Bonevil-ca/runyard-releases/releases/latest"><img src="https://img.shields.io/github/v/release/Bonevil-ca/runyard-releases?style=for-the-badge&label=Download&color=06b6d4" alt="Download latest release" /></a>
+  <a href="https://github.com/Bonevil-ca/runyard-releases/releases/latest/download/Runyard.dmg"><img src="https://img.shields.io/github/v/release/Bonevil-ca/runyard-releases?style=for-the-badge&label=Download&color=06b6d4" alt="Download latest release" /></a>
 </p>
 
 <sub>
@@ -69,7 +69,7 @@ It's not Electron, not a wrapper, not a webview — just native Swift and AppKit
 
 ## Installation
 
-1. Download the [latest `.dmg`](https://github.com/Bonevil-ca/runyard-releases/releases/latest).
+1. Download the [latest `.dmg`](https://github.com/Bonevil-ca/runyard-releases/releases/latest/download/Runyard.dmg).
 2. Open it and drag **Runyard** to your `Applications` folder.
 3. Launch from Launchpad or Spotlight. The icon will appear in your menu bar.
 4. On first launch, Runyard creates a starter `config.json` at `~/Library/Application Support/Runyard/`. Open it from the menu bar dropdown via **Edit Configuration** to define your stack.
