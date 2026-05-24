@@ -72,7 +72,7 @@ It's not Electron, not a wrapper, not a webview — just native Swift and AppKit
 1. Download the [latest `.dmg`](https://github.com/Bonevil-ca/runyard-releases/releases/latest/download/Runyard.dmg).
 2. Open it and drag **Runyard** to your `Applications` folder.
 3. Launch from Launchpad or Spotlight. The icon will appear in your menu bar.
-4. On first launch, Runyard creates a starter `config.json` at `~/Library/Application Support/Runyard/`. Open it from the menu bar dropdown via **Edit Configuration** to define your stack.
+4. On first launch, a welcome screen lets you load example tools, add a tool in Settings, or edit `config.json` directly to define your stack.
 
 Updates are delivered automatically through Sparkle. You can also check manually via **Check for Updates…** in the menu bar dropdown or the **About** tab.
 
