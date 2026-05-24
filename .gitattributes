@@ -1,0 +1,8 @@
+# GitHub auto-generates Source code.zip / tar.gz on every release and offers
+# no way to suppress them. This repo only holds release infrastructure
+# (appcast, checkout redirects, README), none of which is useful to anyone
+# downloading a release archive. Mark everything as export-ignore so the
+# auto-generated archives are effectively empty.
+*               export-ignore
+.gitattributes  export-ignore
+.gitignore      export-ignore
