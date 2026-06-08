@@ -48,9 +48,68 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
                 length="7668967"
                 type="application/octet-stream" />
         </item>
+        <item>
+            <title>Version 2026.06.0</title>
+            <pubDate>Sun, 07 Jun 2026 20:56:26 -0400</pubDate>
+            <sparkle:version>209</sparkle:version>
+            <sparkle:shortVersionString>2026.06.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description xml:lang="en"><![CDATA[
+<h3>Share your setup with Export &amp; Import</h3>
+<p>The big addition in this release: you can now move a tool between Macs (or share it with a teammate) as a single portable <code>.runyard</code> file. Export bundles the tool's commands, actions, and any AppleScripts, scrubs out home paths and secrets, and writes one file you can hand off. Import walks you through a review-and-remap sheet so folders and PATH entries get pointed at the right places on the new machine before anything is saved.</p>
+<h3>New</h3>
+<ul>
+    <li><strong>Export a tool</strong>: From the editor header or the sidebar context menu, export any service, shortcut, group, or health check to a <code>.runyard</code> file. Secrets and absolute home paths are redacted, with a clear summary of what was changed.</li>
+    <li><strong>Import a tool</strong>: Bring a <code>.runyard</code> file in with a guided review sheet. Confirm commands, set folders and PATH entries per tool, and rename on collision. Double-clicking a <code>.runyard</code> file in Finder opens it straight into Runyard.</li>
+    <li><strong>Log rotation</strong>: Process and probe logs now rotate automatically based on size, number of kept rotations, and age. Tune the thresholds in Settings &rarr; Advanced.</li>
+    <li><strong>Config examples, one click away</strong>: A link to ready-made configuration examples now appears across the app, so a good starting point is always close.</li>
+</ul>
+<h3>Improved</h3>
+<ul>
+    <li><strong>Sharper health-check stats</strong>: Hover a health check's status pill (or its sparkline when the card is collapsed) to see its latency stats. The p50 and p95 figures now use a rolling 1-hour window, so they reflect recent behaviour rather than the whole session.</li>
+    <li><strong>Tidier probe cards</strong>: A collapsed health-check row is cleaner and less noisy at a glance.</li>
+</ul>
+<h3>Fixed</h3>
+<ul>
+    <li>Command arguments are now edited one row at a time, fixing a bug where arguments containing spaces could be split apart and corrupted.</li>
+    <li>Adding or importing a tool whose name matches an existing one no longer silently replaces the existing tool.</li>
+    <li>The popover now closes cleanly when an action hands off to Finder, Console, or your browser.</li>
+    <li>The <code>directory</code> field is now correctly treated as service-only and is stripped from other tool types on save.</li>
+</ul>
+]]></description>
+            <description xml:lang="fr"><![CDATA[
+<h3>Partagez votre configuration avec l'exportation et l'importation</h3>
+<p>La grande nouveauté de cette version : vous pouvez maintenant déplacer un outil d'un Mac à l'autre (ou le partager avec un collègue) sous la forme d'un seul fichier portable <code>.runyard</code>. L'exportation regroupe les commandes, les actions et les AppleScripts de l'outil, retire les chemins personnels et les secrets, et produit un fichier unique que vous pouvez transmettre. L'importation vous guide à travers une fenêtre de révision et de réaffectation afin que les dossiers et les entrées de PATH pointent au bon endroit sur la nouvelle machine avant que quoi que ce soit ne soit enregistré.</p>
+<h3>Nouveautés</h3>
+<ul>
+    <li><strong>Exporter un outil</strong> : Depuis l'en-tête de l'éditeur ou le menu contextuel de la barre latérale, exportez n'importe quel service, raccourci, groupe ou vérification d'état vers un fichier <code>.runyard</code>. Les secrets et les chemins personnels absolus sont caviardés, avec un résumé clair de ce qui a été modifié.</li>
+    <li><strong>Importer un outil</strong> : Intégrez un fichier <code>.runyard</code> grâce à une fenêtre de révision guidée. Confirmez les commandes, définissez les dossiers et les entrées de PATH par outil, et renommez en cas de conflit. Un double-clic sur un fichier <code>.runyard</code> dans le Finder l'ouvre directement dans Runyard.</li>
+    <li><strong>Rotation des journaux</strong> : Les journaux des processus et des sondes pivotent maintenant automatiquement selon la taille, le nombre de rotations conservées et l'âge. Ajustez les seuils dans Réglages &rarr; Avancé.</li>
+    <li><strong>Exemples de configuration à un clic</strong> : Un lien vers des exemples de configuration prêts à l'emploi apparaît maintenant un peu partout dans l'app, pour qu'un bon point de départ soit toujours à portée de main.</li>
+</ul>
+<h3>Améliorations</h3>
+<ul>
+    <li><strong>Statistiques d'état plus précises</strong> : Survolez la pastille d'état d'une vérification d'état (ou son sparkline lorsque la carte est réduite) pour voir ses statistiques de latence. Les valeurs p50 et p95 utilisent maintenant une fenêtre glissante d'une heure, afin de refléter le comportement récent plutôt que toute la session.</li>
+    <li><strong>Cartes de sondes plus épurées</strong> : Une rangée de vérification d'état réduite est plus propre et moins chargée au coup d'œil.</li>
+</ul>
+<h3>Corrections</h3>
+<ul>
+    <li>Les arguments de commande s'éditent maintenant une rangée à la fois, ce qui corrige un bogue où les arguments contenant des espaces pouvaient être scindés et corrompus.</li>
+    <li>Ajouter ou importer un outil dont le nom correspond à un outil existant ne remplace plus silencieusement l'outil existant.</li>
+    <li>Le popover se ferme maintenant proprement lorsqu'une action passe la main au Finder, à la Console ou à votre navigateur.</li>
+    <li>Le champ <code>directory</code> est maintenant correctement traité comme propre aux services et est retiré des autres types d'outils à l'enregistrement.</li>
+</ul>
+]]></description>
+            <enclosure
+                url="https://github.com/bonevil-ca/runyard-releases/releases/download/2026.06.0/Runyard.dmg"
+                sparkle:edSignature="r3gsQb+/4Hgt7hmGpCRXDyhjTjrCMBNnBEOiM/sbAMPwLxyfaWTYehzVp3pp9L0sSe55kRqUYhGrEB8y45N6AA=="
+                length="8119962"
+                type="application/octet-stream" />
+        </item>
+
 
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: X6MwsA6FIvUtdw9XXwPH4buvQ5IMGk91N1tNEku5HNjGwY2+HI8qrTp7nfPd4LhccgKFsXvha1z3qJiU/qaZAg==
-length: 5884
+edSignature: mH0Dbep2RcrTFr7vxBFW0vXEH5uZ+TwmAoQbzgvRfWHzK2D+u71jhBhORCb8LlvJV03S5U+TtMoxs51T6PKsCw==
+length: 12271
 -->
