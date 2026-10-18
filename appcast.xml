@@ -6,6 +6,44 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <link>https://bonevil-ca.github.io/runyard-releases/appcast.xml</link>
         <description>Most recent updates to Runyard</description>
         <language>en</language>
+                <item>
+            <title>Version 2026.10.0</title>
+            <pubDate>Sun, 18 Oct 2026 10:21:55 -0400</pubDate>
+            <sparkle:version>218</sparkle:version>
+            <sparkle:shortVersionString>2026.10.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description xml:lang="en"><![CDATA[
+<h3>New</h3>
+<ul>
+    <li><strong>Keep Awake at launch</strong>: Turn on Settings &rarr; General &rarr; Keep Awake &rarr; <em>Activate when Runyard launches</em> to start a Keep Awake session as soon as Runyard opens, using your default duration. With Launch at Login also on, your Mac stays awake from the moment Runyard starts. Off by default. The one-time notice about closed-lid sleep shows when you turn the option on, so no alert appears when Runyard starts.</li>
+</ul>
+<h3>Improved</h3>
+<ul>
+    <li>New troubleshooting section for a missing menu bar icon. The most common cause is a menu bar manager (Bartender, Ice, Hidden Bar, Dozer) hiding Runyard, often right after a macOS upgrade.</li>
+</ul>
+<h3>Fixed</h3>
+<ul>
+    <li>Runyard's menu bar icon now keeps its position and visibility tied to Runyard itself rather than to its launch order. After this update, the icon may move once. Drag it back with &#8984; and it will stay put.</li></ul>
+]]></description>
+            <description xml:lang="fr"><![CDATA[
+<h3>Nouveautés</h3>
+<ul>
+    <li><strong>Garder éveillé à l'ouverture</strong> : Activez Réglages &rarr; Général &rarr; Garder éveillé &rarr; <em>Activer à l'ouverture de Runyard</em> pour démarrer une session Garder éveillé dès l'ouverture de Runyard, selon votre durée par défaut. Si Lancer au démarrage est aussi activé, votre Mac reste éveillé dès que Runyard démarre. Désactivée par défaut. L'avis unique sur la mise en veille capot fermé s'affiche au moment où vous activez l'option, pour qu'aucune alerte n'apparaisse à l'ouverture de Runyard.</li>
+</ul>
+<h3>Améliorations</h3>
+<ul>
+    <li>Nouvelle section de dépannage pour une icône absente de la barre de menus. La cause la plus fréquente est un gestionnaire de barre de menus (Bartender, Ice, Hidden Bar, Dozer) qui masque Runyard, souvent juste après une mise à niveau de macOS.</li>
+</ul>
+<h3>Corrections</h3>
+<ul>
+    <li>La position et la visibilité de l'icône de Runyard dans la barre de menus sont maintenant liées à Runyard lui-même plutôt qu'à son ordre de lancement. Après cette mise à jour, l'icône peut changer de place une fois. Replacez-la en la glissant avec &#8984; et elle restera en place.</li></ul>
+]]></description>
+            <enclosure
+                url="https://github.com/bonevil-ca/runyard-releases/releases/download/2026.10.0/Runyard.dmg"
+                sparkle:edSignature="o5ih7f68WfUOfb3eZmrP8eKTHakeh939sPnUeyl0/eCusPSkTUJHOtax2qD+eGS3SOuXfMCXdur6EeAH7bfzBw=="
+                length="8052358"
+                type="application/octet-stream" />
+        </item>
         <item>
             <title>Version 2026.05.0</title>
             <pubDate>Sun, 24 May 2026 13:22:26 -0400</pubDate>
@@ -110,6 +148,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: mH0Dbep2RcrTFr7vxBFW0vXEH5uZ+TwmAoQbzgvRfWHzK2D+u71jhBhORCb8LlvJV03S5U+TtMoxs51T6PKsCw==
-length: 12271
+edSignature: +VdP1YdRo277N4M1kfEjsaIJ5/RDs3UT5IeVOHN0atHnzPPao1enm/373UuSJ8iil9hEeuT33oMnsSF8MzsGDw==
+length: 15279
 -->
